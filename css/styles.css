@@ -239,6 +239,8 @@ svg {
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
+
+    cursor: pointer;
 }
 
 .visually-hidden {
@@ -472,6 +474,7 @@ svg {
 .clients-tittle {
     margin-top: 0;
     padding-top: 94px;
+    margin-bottom: 50px;
 
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -484,7 +487,7 @@ svg {
 
 .clients-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-bottom: 94px;
 }
 
@@ -516,7 +519,7 @@ svg {
 /* FOOTER */
 
 .footer-logo {
-    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 .footer {
@@ -635,6 +638,8 @@ svg {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 16px;
+
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-button {
@@ -878,6 +883,7 @@ svg {
     border-radius: 50%;
     margin-top: 8px;
     margin-right: 8px;
+    cursor: pointer;
 
     background-color: var(--white-color);
 
@@ -885,7 +891,7 @@ svg {
 }
 
 .close-icon {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -926,6 +932,7 @@ svg {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     outline: none;
+    resize: none;
 
     transition: color var(--animation-time) var(--animation);
 }
@@ -941,7 +948,7 @@ svg {
 .signup-form .group {
     display: flex;
     flex-direction: column;
-    margin-bottom: 28px;
+    margin-bottom: 10px;
 }
 
 .textarea-label {
